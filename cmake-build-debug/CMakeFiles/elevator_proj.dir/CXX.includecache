@@ -1,0 +1,110 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevator.cpp
+elevator.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevator.h
+iostream
+-
+string
+-
+
+C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevator.h
+elevatorState.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevatorState.h
+../request.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/request.h
+vector
+-
+queue
+-
+
+C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevatorState.h
+
+C:/Users/Mew Mew/CLionProjects/elevator_proj/main.cpp
+iostream
+-
+vector
+-
+stdlib.h
+-
+time.h
+-
+chrono
+-
+thread
+-
+queue
+-
+signal.h
+-
+spdlog/spdlog.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog.h
+spdlog/sinks/basic_file_sink.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/basic_file_sink.h
+elevator/elevator.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevator.h
+
+C:/Users/Mew Mew/CLionProjects/elevator_proj/request.h
+elevator/elevatorState.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevatorState.h
+
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/basic_file_sink-inl.h
+spdlog/sinks/basic_file_sink.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/spdlog/sinks/basic_file_sink.h
+spdlog/common.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/spdlog/common.h
+spdlog/details/os.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/spdlog/details/os.h
+
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/basic_file_sink.h
+spdlog/details/file_helper.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/spdlog/details/file_helper.h
+spdlog/details/null_mutex.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/spdlog/details/null_mutex.h
+spdlog/sinks/base_sink.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/spdlog/sinks/base_sink.h
+spdlog/details/synchronous_factory.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/spdlog/details/synchronous_factory.h
+mutex
+-
+string
+-
+basic_file_sink-inl.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/basic_file_sink-inl.h
+
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog-inl.h
+spdlog/spdlog.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog/spdlog.h
+spdlog/common.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog/common.h
+spdlog/details/pattern_formatter.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog/details/pattern_formatter.h
+
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog.h
+spdlog/common.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog/common.h
+spdlog/details/registry.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog/details/registry.h
+spdlog/logger.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog/logger.h
+spdlog/version.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog/version.h
+spdlog/details/synchronous_factory.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog/details/synchronous_factory.h
+chrono
+-
+functional
+-
+memory
+-
+string
+-
+spdlog-inl.h
+C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/spdlog-inl.h
+

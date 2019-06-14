@@ -1,0 +1,3 @@
+C:/Users/Mew Mew/CLionProjects/elevator_proj/cmake-build-debug/CMakeFiles/elevator_proj.dir
+C:/Users/Mew Mew/CLionProjects/elevator_proj/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mew Mew/CLionProjects/elevator_proj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
