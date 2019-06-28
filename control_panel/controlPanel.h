@@ -1,8 +1,0 @@
-#ifndef ELEVATOR_PROJ_CONTROLPANEL_H
-#define ELEVATOR_PROJ_CONTROLPANEL_H
-
-class controlPanel {
-
-};
-
-#endif //ELEVATOR_PROJ_CONTROLPANEL_H

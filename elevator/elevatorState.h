@@ -1,7 +1,7 @@
 #ifndef ELEVATOR_PROJ_ELEVATORSTATE_H
 #define ELEVATOR_PROJ_ELEVATORSTATE_H
 
-enum ElevatorState { UP, DOWN, IDLE };
+enum Direction { UP, DOWN, IDLE };
 enum DoorState { OPENING, OPEN, CLOSING, CLOSED };
 
 #endif //ELEVATOR_PROJ_ELEVATORSTATE_H

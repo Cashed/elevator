@@ -2,7 +2,6 @@
 #define ELEVATOR_PROJ_ELEVATOR_H
 
 #include "elevatorState.h"
-#include "../request.h"
 #include <vector>
 #include <queue>
 
@@ -10,28 +9,33 @@ class elevator {
 public:
     elevator() = delete;
     elevator(int maxFloor);
-    elevator(int maxFloor, int minFloor);
+    elevator(int minFloor, int maxFloor);
     int MaxFloor() const { return _maxFloor; };
     int MinFloor() const { return _minFloor; };
     int CurrentFloor() const { return _currentFloor; };
-    ElevatorState CurrentDirection() const { return _currentDirection; }
-    std::vector<std::queue<ElevatorState>> FloorRequests() const { return _floorRequests; };
+    bool Stopped() const { return _stopped; };
+    Direction CurrentDirection() const { return _currentDirection; };
+    std::vector<bool> Pickups() const { return _pickups; };
+    std::vector<bool> DropOffs() const { return _dropOffs; };
+    std::vector<Direction> DirectionReqs() const { return _directionReqs; };
 
-    void acceptRequest(const request &request);
-    void handlePassengers();
+    void acceptRequest(int current, Direction direction);
+    void pushFloorNum(int destination);
+    void run();
 private:
     int _maxFloor = 10;
     int _minFloor = 1;
     int _currentFloor = 1;
-    ElevatorState _currentDirection = IDLE;
-    std::vector<std::queue<ElevatorState>> _floorRequests;
-    int _destinationRequests[10];
+    bool _stopped = true;
+    Direction _currentDirection = IDLE;
+    std::vector<bool> _pickups;
+    std::vector<bool> _dropOffs;
+    std::vector<Direction> _directionReqs;
 
-    void _moveUp();
-    void _moveDown();
-    void _createRequestQueue();
-    bool _isValidPickup();
-    void _pickupPassenger();
+    void _createRequestQueues();
+    void _move();
+
+    void _wait();
 };
 
 

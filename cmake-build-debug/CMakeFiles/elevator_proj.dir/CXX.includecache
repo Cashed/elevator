@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevator.cpp
-elevator.h
-C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevator.h
-iostream
--
-string
--
-
 C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevator.h
 elevatorState.h
 C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevatorState.h
-../request.h
-C:/Users/Mew Mew/CLionProjects/elevator_proj/request.h
 vector
 -
 queue
@@ -39,8 +29,6 @@ chrono
 -
 thread
 -
-queue
--
 signal.h
 -
 spdlog/spdlog.h
@@ -49,10 +37,6 @@ spdlog/sinks/basic_file_sink.h
 C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/basic_file_sink.h
 elevator/elevator.h
 C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevator.h
-
-C:/Users/Mew Mew/CLionProjects/elevator_proj/request.h
-elevator/elevatorState.h
-C:/Users/Mew Mew/CLionProjects/elevator_proj/elevator/elevatorState.h
 
 C:/Users/Mew Mew/CLionProjects/elevator_proj/spdlog/sinks/basic_file_sink-inl.h
 spdlog/sinks/basic_file_sink.h

@@ -97,9 +97,6 @@
 		<Unit filename="C:/Users/Mew Mew/CLionProjects/elevator_proj/main.cpp">
 			<Option target="elevator_proj"/>
 		</Unit>
-		<Unit filename="C:/Users/Mew Mew/CLionProjects/elevator_proj/request.h">
-			<Option target="elevator_proj"/>
-		</Unit>
 		<Unit filename="C:/Users/Mew Mew/CLionProjects/elevator_proj/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
